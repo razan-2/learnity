@@ -1,0 +1,15 @@
+/* Perspective to give a 3D effect */
+.perspective {
+    perspective: 1000px;
+  }
+  
+  /* Maintain 3D transform */
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  
+  /* Hide the backface to avoid showing reversed text */
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  

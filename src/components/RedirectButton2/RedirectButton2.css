@@ -1,0 +1,14 @@
+button:hover {
+    color: white;
+  }
+  
+  button:hover span {
+    top: -30px;
+    left: -30px;
+  }
+  
+  button:active span {
+    background: #3a0ca3;
+    transition: background 0s;
+  }
+  
